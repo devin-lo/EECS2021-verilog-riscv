@@ -16,6 +16,10 @@ https://www.eecs.yorku.ca/teaching/docs/2021/
 
 The prelabs are K, L, M, and N.
 
+As well, labs M and N require the Sequential Component Library which I have not included (as I did not author any part of them). Link:
+
+https://www.eecs.yorku.ca/teaching/docs/2021/hrLib.zip
+
 NOTE: I will not be uploading codes for the RISC-V prelabs (A, B, C, D) because these pre-labs did not require students to figure out what the right code is; all the answers were already provided on the handouts.
 
 As well, I will NOT provide any additional resources for the EECS2021 course. Please do not solicit additional answers that I did not provide here.
