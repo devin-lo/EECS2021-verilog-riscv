@@ -1,0 +1,48 @@
+expected output
+
+RUN
+0x0000000000000028 add     x30 x0 x0       START: add    t5, x0, x0          # 00000F33
+0x000000000000002c add     x8 x0 x0              add    s0, x0, x0           # 00000433
+0x0000000000000030 add     x10 x0 x0             add    a0, x0, x0           # 00000533
+0x0000000000000034 lw      x5 x30 0x000    LOOP: lw     t0, 0(t5)            # 000F2283
+0x0000000000000038 beq     x5 x0 0x00a           beq    t0, x0, DONE         # 00028563
+0x000000000000003c add     x8 x8 x5              add    s0, s0, t0           # 00540433
+0x0000000000000040 or      x10 x10 x5            or     a0, a0, t0           # 00556533
+0x0000000000000044 addi    x30 x30 0x004         addi   t5, t5, 4            # 004F0F13
+0x0000000000000048 jal     x0 0xffff6            jal    x0, LOOP             # FF7FF06F
+0x0000000000000034 lw      x5 x30 0x000    LOOP: lw     t0, 0(t5)            # 000F2283
+0x0000000000000038 beq     x5 x0 0x00a           beq    t0, x0, DONE         # 00028563
+0x000000000000003c add     x8 x8 x5              add    s0, s0, t0           # 00540433
+0x0000000000000040 or      x10 x10 x5            or     a0, a0, t0           # 00556533
+0x0000000000000044 addi    x30 x30 0x004         addi   t5, t5, 4            # 004F0F13
+0x0000000000000048 jal     x0 0xffff6            jal    x0, LOOP             # FF7FF06F
+0x0000000000000034 lw      x5 x30 0x000    LOOP: lw     t0, 0(t5)            # 000F2283
+0x0000000000000038 beq     x5 x0 0x00a           beq    t0, x0, DONE         # 00028563
+0x000000000000003c add     x8 x8 x5              add    s0, s0, t0           # 00540433
+0x0000000000000040 or      x10 x10 x5            or     a0, a0, t0           # 00556533
+0x0000000000000044 addi    x30 x30 0x004         addi   t5, t5, 4            # 004F0F13
+0x0000000000000048 jal     x0 0xffff6            jal    x0, LOOP             # FF7FF06F
+0x0000000000000034 lw      x5 x30 0x000    LOOP: lw     t0, 0(t5)            # 000F2283
+0x0000000000000038 beq     x5 x0 0x00a           beq    t0, x0, DONE         # 00028563
+0x000000000000003c add     x8 x8 x5              add    s0, s0, t0           # 00540433
+0x0000000000000040 or      x10 x10 x5            or     a0, a0, t0           # 00556533
+0x0000000000000044 addi    x30 x30 0x004         addi   t5, t5, 4            # 004F0F13
+0x0000000000000048 jal     x0 0xffff6            jal    x0, LOOP             # FF7FF06F
+0x0000000000000034 lw      x5 x30 0x000    LOOP: lw     t0, 0(t5)            # 000F2283
+0x0000000000000038 beq     x5 x0 0x00a           beq    t0, x0, DONE         # 00028563
+0x000000000000003c add     x8 x8 x5              add    s0, s0, t0           # 00540433
+0x0000000000000040 or      x10 x10 x5            or     a0, a0, t0           # 00556533
+0x0000000000000044 addi    x30 x30 0x004         addi   t5, t5, 4            # 004F0F13
+0x0000000000000048 jal     x0 0xffff6            jal    x0, LOOP             # FF7FF06F
+0x0000000000000034 lw      x5 x30 0x000    LOOP: lw     t0, 0(t5)            # 000F2283
+0x0000000000000038 beq     x5 x0 0x00a           beq    t0, x0, DONE         # 00028563
+0x000000000000003c add     x8 x8 x5              add    s0, s0, t0           # 00540433
+0x0000000000000040 or      x10 x10 x5            or     a0, a0, t0           # 00556533
+0x0000000000000044 addi    x30 x30 0x004         addi   t5, t5, 4            # 004F0F13
+0x0000000000000048 jal     x0 0xffff6            jal    x0, LOOP             # FF7FF06F
+0x0000000000000034 lw      x5 x30 0x000    LOOP: lw     t0, 0(t5)            # 000F2283
+0x0000000000000038 beq     x5 x0 0x00a           beq    t0, x0, DONE         # 000F2283
+0x000000000000004c sw      x8 x0 0x020     DONE: sw     s0, 0x20(x0)         # 02802023
+0x0000000000000050 sw      x10 x0 0x024          sw     a0, 0x24(x0)         # 02A02223
+ERROR: 0x0000000000000054: NO INSTRUCTION
+

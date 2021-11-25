@@ -1,0 +1,20 @@
+@00 00000001 // array[0]
+@04 00000003 // array[1]
+@08 00000005 // array[2]
+@0C 00000007 // array[3]
+@10 00000009 // array[4]
+@14 0000000B // array[5]
+@18 00000000 // null terminator
+@20 00000000 // the sum
+@24 00000000 // the or reduction
+@28 00000F33 // add x30, x0, x0		# index
+@2C 00000433 // add x8, x0, x0		# sum
+@30 00000533 // add x10, x0, x0		# or reduction
+@34 000F2283 // lw x5, 0(x30)		# loop: x5 = array[x30]
+@38 00028563 // beq x5, x0, DONE	# if (x5 == 0) done
+@3C 00540433 // add s0, s0, t0		// I had to put the program into RISC-V and then convert BIN to HEX
+@40 00556533 // or a0, a0, t0
+@44 004F0F13 // addi t5, t5, 4		# t5++
+@48 FF7FF06F // jal x0, LOOP
+@4C 02802023 // sw s0, 0x20(x0)		# done: save s0
+@50 02A02223 // sw a0, 0x24(x0)		# save a0
