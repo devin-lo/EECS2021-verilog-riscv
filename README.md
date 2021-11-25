@@ -12,7 +12,7 @@ However, the course has been taught using the RISC-V instruction set since aroun
 
 The corresponding pre-lab handouts can be found at this page: https://www.eecs.yorku.ca/teaching/docs/2021/
 
-The prelabs are K, L, M, and N.
+The prelabs for Verilog are K, L, M, and N.
 
 As well, labs M and N require the Sequential Component Library which I have not included (as I did not author any part of them).
 
