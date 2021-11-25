@@ -12,16 +12,16 @@ However, the course has been taught using the RISC-V instruction set since aroun
 
 The corresponding pre-lab handouts can be found at this page: https://www.eecs.yorku.ca/teaching/docs/2021/
 
-The prelabs for Verilog are K, L, M, and N. NOTE: Verilog is a C-like language. It may help you to take EECS 2031 concurrently, or before taking this course.
+The prelabs for Verilog are K, L, M, and N. *Word of advice: Verilog is a C-like language. It may help you to take EECS 2031 concurrently, or before taking this course.*
 
 As well, labs M and N require the Sequential Component Library which I have not included (as I did not author any part of them).
 
 Link: https://www.eecs.yorku.ca/teaching/docs/2021/hrLib.zip
 
-Lab M: I have included the ram.dat file, which I created using the RISC-V assembly file that I also included. You have to compile the RISC-V program in RVS, and then convert the binary representation into hexadecimal (I used a binary-to-hex converter online).
+**Lab M:** I have included the ram.dat file, which I created using the RISC-V assembly file that I also included. You have to compile the RISC-V program in RVS, and then convert the binary representation into hexadecimal (I used a binary-to-hex converter online).
 
-Lab N: The result of LabN2 and LabN3 are combined because I felt that yC1 and yC2 are too closely related to split up testing them.
+**Lab N:** The result of LabN2 and LabN3 are combined because I felt that yC1 and yC2 are too closely related to split up testing them.
 
-NOTE: I will not be uploading codes for the RISC-V prelabs (A, B, C, D) because these pre-labs did not require students to figure out what the right code is; all the answers were already provided on the handouts. As well, those prelabs were less tedious - you could spend one evening to go through one handout and understand it quite well, whereas the Verilog labs needed at least 3 days worth of troubleshooting per handout.
+**NOTE:** I will not be uploading codes for the RISC-V prelabs (A, B, C, D) because these pre-labs did not require students to figure out what the right code is; all the answers were already provided on the handouts. As well, those prelabs were less tedious - you could spend one evening to go through one handout and understand it quite well, whereas the Verilog labs needed at least 3 days worth of troubleshooting per handout.
 
 As well, I will NOT provide any additional resources for the EECS2021 course. Please do not solicit additional answers that I did not provide here.
