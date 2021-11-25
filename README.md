@@ -27,3 +27,5 @@ Link: https://www.eecs.yorku.ca/teaching/docs/2021/hrLib.zip
 As well, I will NOT provide any additional resources for the EECS2021 course. Please do not solicit additional answers that I did not provide here.
 
 *Word of advice: Verilog is a C-like language. It may help you to take EECS2031 concurrently, or before taking this course.*
+
+**This GitHub is published under the GNU General Public License v3.0**
