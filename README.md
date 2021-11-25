@@ -5,7 +5,7 @@ This is a repository of the Verilog Pre-Labs for EECS2021, a course taught at Yo
 Many students and I this term have struggled to complete the pre-labs, as they are mandatory self-learning and answers to these exercises are NOT provided by the instructors. The TAs are also not helpful enough; they are often too swamped with trying to help with the actual weekly lab content, which is not entirely related to the pre-lab content.
 These pre-labs are extremely time consuming and many students simply don't have the time to troubleshoot all these codes.
 
-Thus, I am providing my completed versions of the pre-labs with the hopes that others can benefit from the struggles that I and my fellow classmates had to go through to determine how to make this work. Credit has been given to co-authors in comments.
+Thus, I am providing my completed versions of the pre-labs with the hope that others can benefit from the struggles that I and my fellow classmates had to go through to determine how to make this work. Credit has been given to co-authors in comments.
 
 Previous GitHubs published for this course were for a version of the course that used MIPS as the ISA.
 However, the course has been taught using the RISC-V instruction set since around 2017; thus, the code provided in those older GitHubs are not a 1:1 resource that can be used by current students.
