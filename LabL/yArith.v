@@ -9,6 +9,7 @@ module yArith(z, cout, a, b, ctrl);
 
     // instantiate the components and connect them
     // Hint: about 4 lines of code
+    // this circuit is from Figure A.5.8 in Appendix A of the textbk, pg. A-30
     not c_not[31:0](notB, b);
     yMux #(.SIZE(32)) my_mux[31:0](tmp, b, notB, ctrl);
     assign cin = ctrl;
