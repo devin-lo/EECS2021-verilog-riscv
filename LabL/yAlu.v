@@ -16,7 +16,7 @@ module yAlu(z, ex, a, b, op);
     wire condition;
     wire [31:0] aSubB;
     assign slt[31:1] = 0; // not supported
-    assign ex = 0; // not supported
+    // assign ex = 0; // not supported <- must be removed for LabL11 and beyond, credit to 秘密雪
     // instantiate the components and connect them
     // Hint: takes about 4 lines of code
     and ab_and[31:0](zAnd, a, b);
