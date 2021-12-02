@@ -8,6 +8,7 @@ module labM; reg [4:0] rs1, rs2, wn;
 
     initial begin
         flag = $value$plusargs("w=%b", w);
+        // set each register to the square of its reg #
         for (i = 0; i < 32; i = i + 1)
         begin
             clk = 0;
@@ -17,6 +18,7 @@ module labM; reg [4:0] rs1, rs2, wn;
             #1;
         end
 
+        // now test the rf instance by fetching rd1 and rd2 given random rs1 and rs2
         repeat (10)
         begin
             clk = 0;
