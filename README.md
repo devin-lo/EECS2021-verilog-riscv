@@ -2,15 +2,17 @@
 
 This is a repository of the Verilog Pre-Labs for EECS2021, a course taught at York University, Toronto, Canada.
 
-Many students and I this term (Fall 2021) have struggled to complete the pre-labs, as they are mandatory self-learning and answers to these exercises are NOT provided by the instructors. The TAs are also not helpful enough; they are often too swamped with trying to help with the actual weekly lab content, which is not entirely related to the pre-lab content.
+Many students and I this term (Fall 2021) have struggled to complete the pre-labs, as they are **mandatory** self-learning and answers to these exercises are NOT provided by the instructors. **The TAs are also not helpful enough**; they are often too swamped with trying to help with the actual weekly lab content, which is not entirely related to the pre-lab content.
 These pre-labs are extremely time consuming and many students simply don't have the time to troubleshoot all these codes.
 
 Thus, I am providing my completed versions of the pre-labs with the hope that others can benefit from the struggles that I and my fellow classmates had to go through to determine how to make this work. Credit has been given to co-authors in comments.
 
+**Use at your own risk.**
+
 Previous GitHubs published for this course were for a version of the course that used MIPS as the ISA.
 However, the course has been taught using the RISC-V instruction set since around 2017; thus, the code provided in those older GitHubs are not a 1:1 resource that can be used by current students.
 
-The corresponding pre-lab handouts can be found at this page: https://www.eecs.yorku.ca/teaching/docs/2021/
+The corresponding pre-lab handouts can be **publicly** found at this page: https://www.eecs.yorku.ca/teaching/docs/2021/
 
 The prelabs for Verilog are K, L, M, and N.
 
