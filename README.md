@@ -7,7 +7,7 @@ These pre-labs are extremely time consuming and many students simply don't have 
 
 Thus, I am providing my completed versions of the pre-labs with the hope that others can benefit from the struggles that I and my fellow classmates had to go through to determine how to make this work. Credit has been given to co-authors in comments.
 
-**Use at your own risk.**
+**Warning: by reading any code from this repository, you agree that you peruse at your own risk.**
 
 Previous GitHubs published for this course were for a version of the course that used MIPS as the ISA.
 However, the course has been taught using the RISC-V instruction set since around 2017; thus, the code provided in those older GitHubs are not a 1:1 resource that can be used by current students.
